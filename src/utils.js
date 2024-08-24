@@ -1,1 +1,4 @@
-// Your code here
+// Your code
+export function currentAgeForBirthYear(birthYear){
+    return new Date().getFullYear() - birthYear
+}
